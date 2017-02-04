@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1681DEC21E45ADCD009DFD17 /* Berry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1681DEC01E45ADCD009DFD17 /* Berry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1681DECD1E45AE6F009DFD17 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1681DEC81E45AE6F009DFD17 /* Extentions.swift */; };
-		1681DECE1E45AE6F009DFD17 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1681DEC91E45AE6F009DFD17 /* global.swift */; };
-		1681DECF1E45AE6F009DFD17 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1681DECA1E45AE6F009DFD17 /* KeyboardManager.swift */; };
-		1681DED01E45AE6F009DFD17 /* SFNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1681DECB1E45AE6F009DFD17 /* SFNotification.swift */; };
-		1681DED11E45AE6F009DFD17 /* SFUserdefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1681DECC1E45AE6F009DFD17 /* SFUserdefault.swift */; };
+		1681DEF91E45C0D0009DFD17 /* CODE_OF_CONDUCT.md in Sources */ = {isa = PBXBuildFile; fileRef = 1681DEF01E45C0D0009DFD17 /* CODE_OF_CONDUCT.md */; };
+		1681DEFA1E45C0D0009DFD17 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1681DEF11E45C0D0009DFD17 /* LICENSE */; };
+		1681DEFB1E45C0D0009DFD17 /* Berry.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1681DEF21E45C0D0009DFD17 /* Berry.podspec */; };
+		1681DEFC1E45C0D0009DFD17 /* Pod in Resources */ = {isa = PBXBuildFile; fileRef = 1681DEF31E45C0D0009DFD17 /* Pod */; };
+		1681DEFD1E45C0D0009DFD17 /* POD_LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1681DEF41E45C0D0009DFD17 /* POD_LICENSE */; };
+		1681DEFE1E45C0D0009DFD17 /* POD_README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1681DEF51E45C0D0009DFD17 /* POD_README.md */; };
+		1681DEFF1E45C0D0009DFD17 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1681DEF61E45C0D0009DFD17 /* README.md */; };
+		1681DF001E45C0D0009DFD17 /* setup in Resources */ = {isa = PBXBuildFile; fileRef = 1681DEF71E45C0D0009DFD17 /* setup */; };
+		1681DF011E45C0D0009DFD17 /* templates in Resources */ = {isa = PBXBuildFile; fileRef = 1681DEF81E45C0D0009DFD17 /* templates */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1681DEBD1E45ADCD009DFD17 /* Berry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Berry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1681DEC01E45ADCD009DFD17 /* Berry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Berry.h; sourceTree = "<group>"; };
 		1681DEC11E45ADCD009DFD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1681DEC81E45AE6F009DFD17 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
-		1681DEC91E45AE6F009DFD17 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
-		1681DECA1E45AE6F009DFD17 /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
-		1681DECB1E45AE6F009DFD17 /* SFNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFNotification.swift; sourceTree = "<group>"; };
-		1681DECC1E45AE6F009DFD17 /* SFUserdefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFUserdefault.swift; sourceTree = "<group>"; };
+		1681DEF01E45C0D0009DFD17 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		1681DEF11E45C0D0009DFD17 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1681DEF21E45C0D0009DFD17 /* Berry.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Berry.podspec; sourceTree = "<group>"; };
+		1681DEF31E45C0D0009DFD17 /* Pod */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pod; sourceTree = "<group>"; };
+		1681DEF41E45C0D0009DFD17 /* POD_LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = POD_LICENSE; sourceTree = "<group>"; };
+		1681DEF51E45C0D0009DFD17 /* POD_README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = POD_README.md; sourceTree = "<group>"; };
+		1681DEF61E45C0D0009DFD17 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1681DEF71E45C0D0009DFD17 /* setup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = setup; sourceTree = "<group>"; };
+		1681DEF81E45C0D0009DFD17 /* templates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = templates; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,15 @@
 		1681DEB31E45ADCD009DFD17 = {
 			isa = PBXGroup;
 			children = (
+				1681DEF01E45C0D0009DFD17 /* CODE_OF_CONDUCT.md */,
+				1681DEF11E45C0D0009DFD17 /* LICENSE */,
+				1681DEF21E45C0D0009DFD17 /* Berry.podspec */,
+				1681DEF31E45C0D0009DFD17 /* Pod */,
+				1681DEF41E45C0D0009DFD17 /* POD_LICENSE */,
+				1681DEF51E45C0D0009DFD17 /* POD_README.md */,
+				1681DEF61E45C0D0009DFD17 /* README.md */,
+				1681DEF71E45C0D0009DFD17 /* setup */,
+				1681DEF81E45C0D0009DFD17 /* templates */,
 				1681DEBF1E45ADCD009DFD17 /* Berry */,
 				1681DEBE1E45ADCD009DFD17 /* Products */,
 			);
@@ -56,11 +73,6 @@
 		1681DEBF1E45ADCD009DFD17 /* Berry */ = {
 			isa = PBXGroup;
 			children = (
-				1681DEC81E45AE6F009DFD17 /* Extentions.swift */,
-				1681DEC91E45AE6F009DFD17 /* global.swift */,
-				1681DECA1E45AE6F009DFD17 /* KeyboardManager.swift */,
-				1681DECB1E45AE6F009DFD17 /* SFNotification.swift */,
-				1681DECC1E45AE6F009DFD17 /* SFUserdefault.swift */,
 				1681DEC01E45ADCD009DFD17 /* Berry.h */,
 				1681DEC11E45ADCD009DFD17 /* Info.plist */,
 			);
@@ -138,6 +150,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1681DEFD1E45C0D0009DFD17 /* POD_LICENSE in Resources */,
+				1681DEFC1E45C0D0009DFD17 /* Pod in Resources */,
+				1681DF011E45C0D0009DFD17 /* templates in Resources */,
+				1681DEFA1E45C0D0009DFD17 /* LICENSE in Resources */,
+				1681DEFB1E45C0D0009DFD17 /* Berry.podspec in Resources */,
+				1681DF001E45C0D0009DFD17 /* setup in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,11 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1681DECE1E45AE6F009DFD17 /* global.swift in Sources */,
-				1681DECD1E45AE6F009DFD17 /* Extentions.swift in Sources */,
-				1681DED11E45AE6F009DFD17 /* SFUserdefault.swift in Sources */,
-				1681DECF1E45AE6F009DFD17 /* KeyboardManager.swift in Sources */,
-				1681DED01E45AE6F009DFD17 /* SFNotification.swift in Sources */,
+				1681DEFE1E45C0D0009DFD17 /* POD_README.md in Sources */,
+				1681DEFF1E45C0D0009DFD17 /* README.md in Sources */,
+				1681DEF91E45C0D0009DFD17 /* CODE_OF_CONDUCT.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +334,7 @@
 				1681DEC71E45ADCD009DFD17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
