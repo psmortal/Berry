@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Berry'
-  s.version          = '0.6'
-  s.summary          = 'A short description of Berry.'
+  s.version          = '0.7'
+  s.summary          = 'this is berry.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/psmortal/Berry.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target => '8.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'Pod/Classes/**/*'
   
