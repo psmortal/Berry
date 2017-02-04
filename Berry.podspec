@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Berry'
-  s.version          = '0.5'
-  s.summary          = 'A short description of ${POD_NAME}.'
+  s.version          = '0.6'
+  s.summary          = 'A short description of Berry.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,16 +24,16 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/psmortal/Berry'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
+  s.author           = { 'sifan' => 'pansifan0525@163.com' }
   s.source           = { :git => 'https://github.com/psmortal/Berry.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target => '8.0'
 
   s.source_files = 'Pod/Classes/**/*'
   
   # s.resource_bundles = {
-  #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
+  #   'Berry' => ['Pod/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
