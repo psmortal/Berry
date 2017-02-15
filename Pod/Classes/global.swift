@@ -13,7 +13,7 @@ let SWIDTH = UIScreen.main.bounds.width
 let SHEIGHT = UIScreen.main.bounds.height
 
 //MARK:- 是否模拟器
-struct Platform {
+public struct Platform {
     static let isSimulator: Bool = {
         var isSim = false
         #if arch(i386) || arch(x86_64)
@@ -24,7 +24,7 @@ struct Platform {
 }
 
 
-enum ScreenType {
+public enum ScreenType {
     case S4_0, S4_7,S5_5,unknown
     
     static func current() -> ScreenType {
@@ -42,7 +42,7 @@ enum ScreenType {
 }
 
 
-func splice(strs:[String?],with:String)->String{
+public func splice(strs:[String?],with:String)->String{
     
     let newStrs = strs.filter{$0 != nil}
     if newStrs.count == 0 {

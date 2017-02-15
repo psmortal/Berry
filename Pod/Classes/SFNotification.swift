@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol SFNotification {
+public protocol SFNotification {
 
     //notificationname
     var name:NSNotification.Name {get}
 }
 
-extension SFNotification {
+public extension SFNotification {
     
     func post(object anObject: AnyObject? = nil, userInfo aUserInfo: [NSObject : AnyObject]? = nil) {
         

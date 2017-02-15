@@ -8,13 +8,13 @@
 
 import Foundation
 
-protocol SFUserDefault {
+public protocol SFUserDefault {
     
     var key:String{get}
     
 }
 
-extension SFUserDefault {
+public extension SFUserDefault {
     
     func value() -> Any? {
         

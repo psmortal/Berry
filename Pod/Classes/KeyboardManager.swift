@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class KeyboardManager {
+public class KeyboardManager {
     
     static var shared:KeyboardManager = KeyboardManager()
     var scrollView:UIScrollView?

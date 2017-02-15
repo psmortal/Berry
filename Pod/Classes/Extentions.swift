@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-extension UIColor {
+public extension UIColor {
     
     convenience init(r:CGFloat,g:CGFloat,b:CGFloat,a:CGFloat = 1) {
         self.init(red:r/255.0,green:g/255.0,blue:b/255.0,alpha:a)
@@ -16,7 +16,7 @@ extension UIColor {
     
 }
 
-extension UIImage {
+public extension UIImage {
     
     convenience init(color: UIColor, size: CGSize = CGSize(width:1, height:1)) {
         let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
@@ -75,7 +75,7 @@ extension UIImage {
 
 
 
-extension UINavigationBar {
+public extension UINavigationBar {
     
     /**
      隐藏Bar底部黑线
@@ -111,7 +111,7 @@ extension UINavigationBar {
 }
 
 
-extension UIToolbar {
+public extension UIToolbar {
     
     /**
      隐藏Bar顶部黑线
@@ -146,7 +146,7 @@ extension UIToolbar {
     
 }
 
-extension UIView {
+public extension UIView {
     /**
      为View添加圆形Mask
      */
@@ -158,7 +158,7 @@ extension UIView {
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
     
     typealias AlertAction = () -> Void
     
@@ -187,19 +187,19 @@ extension UIViewController {
 
 // MARK: - tableView可刷新扩展
 
-enum RefreshType {
+public enum RefreshType {
     case Head
     case Foot
 }
 
 
-extension String {
+public extension String {
     var url : URL?{
         return URL(string:self)
     }
 }
 
-extension String {
+public extension String {
     
     func matchWith(pattern: String) throws -> Bool {
         
@@ -244,7 +244,7 @@ extension String {
 
 
 
-extension UIBarButtonItem {
+public extension UIBarButtonItem {
     
     static func yz_negativeSpacer(width: CGFloat) -> UIBarButtonItem {
         let item = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
@@ -255,7 +255,7 @@ extension UIBarButtonItem {
 }
 
 
-extension UIViewController {
+public extension UIViewController {
     
     func yz_setRightBarButton(image: UIImage, target: AnyObject?, action: Selector) {
         
@@ -272,7 +272,7 @@ extension UIViewController {
 
 
 
-extension Double {
+public extension Double {
     
     var RMB : String? {
         return String(format:"¥%.2f",self)
