@@ -3,7 +3,7 @@
 //  Zuzhong
 //
 //  Created by mortal on 2016/12/13.
-//  Copyright © 2016年 矩点医疗科技有 限公司. All rights reserved.
+//  Copyright © 2016年 mortal. All rights reserved.
 //
 
 import Foundation

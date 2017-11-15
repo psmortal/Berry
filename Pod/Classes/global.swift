@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-let SWIDTH = UIScreen.main.bounds.width
-let SHEIGHT = UIScreen.main.bounds.height
+public let SWIDTH = UIScreen.main.bounds.width
+public let SHEIGHT = UIScreen.main.bounds.height
 
 //MARK:- 是否模拟器
 public struct Platform {
@@ -25,15 +25,17 @@ public struct Platform {
 
 
 public enum ScreenType {
-    case S4_0, S4_7,S5_5,unknown
+    case S4_0, S4_7,S5_5,S5_8,unknown
     
     static func current() -> ScreenType {
-        switch SWIDTH{
-        case 320.0:
+        switch SWIDTH,SHEIGHT{
+        case 320.0,_:
             return ScreenType.S4_0
-        case 375.0:
+        case 375.0,667.0:
             return ScreenType.S4_7
-        case 414.0:
+        case 375.0,812.0:
+            return ScreenType.S5_8
+        case 414.0,_:
             return ScreenType.S5_5
         default:
             return ScreenType.unknown
